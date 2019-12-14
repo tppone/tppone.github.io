@@ -1,0 +1,22 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+
+
+// Resets ================================================================================
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  padding: 1rem 0;
+}
+
+small {
+  color: #C0C0C0;
+}
+
+img {
+  max-width: 100%;
+}

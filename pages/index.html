@@ -1,0 +1,13 @@
+---
+layout: default
+permalink: /
+---
+
+<p class="mb-4"><img src="images/mission.png" alt="Equipping the world's leaders to master the revolution in technology"></p>
+
+{% assign sorted = site.data.links | sort: 'title' | sort: 'date' | reverse %}
+  {% for item in sorted %}
+  {% assign source = item.url | remove:'http://' | remove:'https://' | split:'/' | first %}
+  <p><a href="{{item.url}}">{{ item.title }}</a><br />
+  <small>{{ item.date | date: "%b %Y"}} | {{ source }}{% if source == "institute.global" %} ⭐{% endif %}</small></p>
+{% endfor %}
