@@ -1,6 +1,6 @@
 # Site settings
 title: Technology and Public Policy
-description: A collection of articles and interviews about the tech revolution, from the Technology and Public Policy team at the Tony Blair Institute.
+description: Links to articles and interviews about the tech revolution, from the Technology and Public Policy team at the Tony Blair Institute.
 url: "https://tpp.one"
 enforce_ssl: tpp.one
 permalink: /blog/:title/
