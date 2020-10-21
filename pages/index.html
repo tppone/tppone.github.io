@@ -11,5 +11,5 @@ permalink: /
   {% for item in sorted %}
   {% assign source = item.url | remove:'http://' | remove:'https://' | split:'/' | first %}
   <p><a href="{{item.url}}">{{ item.title }}</a><br />
-  <small>{{ item.date | date: "%b %Y"}} | {{ source }}{% if source == "institute.global" %} ⭐{% elsif source == "progress.substack.com"} 📝{% endif %}</small></p>
+  <small>{{ item.date | date: "%b %Y"}} | {{ source }}{% if source == "institute.global" %} ⭐{% elsif source == "progress.substack.com" %} 📝{% endif %}</small></p>
 {% endfor %}
