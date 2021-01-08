@@ -1,15 +1,9 @@
 # Site settings
 title: Technology and Public Policy
-description: Links to articles and interviews about the tech revolution, from the Technology and Public Policy team at the Tony Blair Institute.
 url: "https://tpp.one"
 enforce_ssl: tpp.one
 permalink: /blog/:title/
 future: true
-
-# Account settings
-twitter: clry2
-facebook: 509241123
-ganalytics: UA-154620360-1
 
 # Build settings
 markdown: kramdown
